@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: linear-gradient(to top,rgba(17, 17, 19, 0.797),hsla(220, 6%, 10%, 0.518)),  url('fondo_netflix.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+}
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    align-items: center;
+    padding: 0px 15px;
+}
+.logo{
+    width:100px;
+    height:50px;
+}
+.seleccion-idioma{
+    padding:10px 25px;
+    border:5px;
+    color:white;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #000;
+    border-color: white;
+}
+.boton-iniciar{
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #f40707;
+}
+.boton-iniciar:hover{
+    background-color: #e81616;
+}
+.contenido{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height: 93vh;
+    color:white;
+    text-align:center;
+}
+.peliculas{
+    font-size:40px;
+}
+
+.disfruta{
+    font-size:30px;
+    margin: 32px 13px;
+}
+
+.quieres{
+    font-size:28px;
+    text-align: center;
+    margin: 32px 13px; 
+}
+.contenido_2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+.input-email_celular{
+    padding:10px 25px;
+    border:1px solid red; 
+    color:rgb(219, 10, 10);
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #00000040;
+    margin:0px 5px;
+    
+}
+
+.text_input{
+    font-size:15spx; 
+}
+
+.boton-comenzar{
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #f40707;
+}
+
+@media screen and (max-width:600px){
+    .contenido{
+        height: 94vh;
+    }
+    .contenido_2{
+        display:flex;
+        flex-direction:column;
+        
+        
+    }
+
+}
+
+
+
+
+

@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: linear-gradient(to top,rgba(17, 17, 19, 0.797),hsla(220, 6%, 10%, 0.518)),  url('fondo_netflix.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+}
